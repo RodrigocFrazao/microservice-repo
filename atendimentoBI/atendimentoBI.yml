@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://datafit.net.br:53180/RASTRECALL_Comissao_PRD
+    username: UserRastrecallConsulta
+    password: r@53C@Ll#2019
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
