@@ -1,11 +1,9 @@
 spring:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://datafit.net.br:53180;databaseName=RASTRECALL_Comissao_PRD
+    url: jdbc:sqlserver://datafit.net.br:53180;databaseName=RASTRECALL_Comissao_PRD??currentSchema=dbo
     username: UserRastrecallConsulta
     password: r@53C@Ll#2019
-    schema:
-    - dbo
   jpa:
     database-platform: org.hibernate.dialect.SQLServer2012Dialect
     hibernate:
