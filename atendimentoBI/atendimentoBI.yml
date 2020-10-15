@@ -2,8 +2,6 @@ spring:
   datasource:
     driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://datafit.net.br:53180;databaseName=RASTRECALL_Comissao_PRD
-    hikari:
-      schema: dbo
     username: UserRastrecallConsulta
     password: r@53C@Ll#2019
   jpa:
