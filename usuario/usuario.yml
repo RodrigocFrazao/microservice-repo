@@ -2,8 +2,8 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://104.210.155.93:3306/usuario
-    username: rastrecall
-    password: Yuh54#$toMe9090)
+    username: rodrigofrazao
+    password: kobaYashi24!
   jpa:
     hibernate:
       ddl-auto: create
